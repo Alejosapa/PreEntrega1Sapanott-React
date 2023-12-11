@@ -1,5 +1,5 @@
+import CartWidget from "../CartWidget/CartWidget.js";
 
-import CartWidget from "./components/CartWidget";
 
 function NavBar(){
 
@@ -10,14 +10,13 @@ function NavBar(){
                     <h1 className="title">Karka Pilchas</h1>
                     <nav>
                     <div className="columns">
+
                         <ul>
-                            <li className="column is-4"><a href="ll">Ropa</a></li>
-                            <li className="column is-4"><a href="ll">Acerca de nosotros</a></li>
-                            <li className="column is-4"><a href="ll">Contactanos</a></li>
+                            
                         </ul>
-                        <CartWidget className="column is-4"/>
                     </div>
                     </nav>
+                    <CartWidget itemCount={0}/>
                 </div>
             </section>
         </div>
