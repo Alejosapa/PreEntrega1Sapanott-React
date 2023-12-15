@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar/NavBar";
 import "bulma/css/bulma.css";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ItemDetailContainer from "./components/ItemDetailConteiner/ItemDetailConteiner";
 
 
 function App(){
@@ -13,8 +14,8 @@ function App(){
                 <Routes>
                     <Route path="/" element={<ItemListContainer/>}/>
                     <Route path="/category/:categoryId" element={<ItemListContainer/>}/>
-                    <Route path="" element={<div/>}/>
-                    <Route path="" element={<div/>}/>
+                    <Route path="/item/:itemId" element={<ItemDetailContainer/>}/>
+                    <Route path="*" element={<h1>404 NOT FOUND</h1>}/>
                 </Routes>
             </BrowserRouter>
             
