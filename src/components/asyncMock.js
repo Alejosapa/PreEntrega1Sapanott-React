@@ -1,4 +1,3 @@
-
 const products = [
     {
         id: '1', name:'Remera', price:'6000', category:'parte-superior', img:'https://acdn.mitiendanube.com/stores/219/431/products/8b4fa3e4-b028-4bd0-a2ba-a2ac0065cbef-40dc5bd09032a46cf616935214938318-1024-1024.webp', stock:15, 

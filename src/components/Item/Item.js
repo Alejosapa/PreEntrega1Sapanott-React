@@ -9,7 +9,7 @@ const Item = ({id, name, img, price, stock}) => {
                 <h2 className="ItemHeader">{name}</h2>
             </header>
 
-            <picture className="ItemImg">
+            <picture className="ItemPicture">
                 <img src={img} alt={name} className="ItemImg"/>
             </picture>
 
